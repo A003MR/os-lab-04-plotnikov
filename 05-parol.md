@@ -17,5 +17,5 @@
 **Почему не аргументом:** потому что аргументы командной строки видны абсолютно всем пользователям системы через `ps`. Любой юзер на сервере сможет украсть пароль к базе данных, просто запустив `ps aux`.
 
 ## Скриншоты
-*   Скриншот, где student2 видит пароль через ps: `screenshots/05-pass-ps.png`
-*   Скриншот Permission denied при чтении environ: `screenshots/05-pass-denied.png`
+![Пароль в ps](screenshots/05-pass-ps.png)
+![Permission denied](screenshots/05-pass-denied.png)
